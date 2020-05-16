@@ -1,0 +1,172 @@
+/* base */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body {
+    background-color: #FEDEE2;
+}
+.encabezado{
+    background-color: #2EA2A4;
+    width: 100%;
+    height: 40px;
+}
+.lateral{
+    background-color: #68C4E9;
+    width: 8%;
+    min-height: 94%;
+    float:left;
+}
+.centro{
+    background-color: white;
+    width: 90%;
+    min-height: 88%;
+    float:right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+.ic{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+.imc{
+    width: 90%;
+    display:block;
+    margin:auto;
+}
+.imc:hover {
+    width: 98%;
+}
+/* Modal */
+.modal-contenido{
+    background-color: rgba(0,0,0,0);
+    width: 40%;
+    height: 50%;
+    padding: 10px 20px;
+    margin: 10% auto;
+    position: relative;
+}
+.modal{
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1;
+}
+#modalIdioma:target{
+opacity: 1;
+pointer-events: auto;
+}
+/* Contenido modal */
+.panel{
+    background-color: white;
+    width: 90%;
+    min-width: 200px;
+    border-radius: 5px;
+    display:block;
+    margin: 10px auto;
+    min-height: 10%;
+}
+.panelModalHeader{
+    height: 20%;
+}
+.panelModalBody{
+    min-height: 10%;
+    padding-bottom: 30px;
+}
+.panelModalFood{
+    min-height: 10%;
+}
+h2{
+    color:#7684A9;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.group-input{
+    width: 70%;
+    height: 90%;
+    display:block;
+    margin: auto;
+    padding: 20px 20px;
+}
+.input-g{
+    border-radius: 6px;
+    border-color:#68C4E9;
+    width:  50%;
+    height: 35px;
+    float: right;
+    font-size: 20px;
+}
+.input-l{
+    float: left;
+    font-size: 20px;
+}
+.input-g:focus{
+    outline: none;
+    border-radius: 6px;
+    border-color: #2EA2A4;
+}
+.botones{
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 5px 5px;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: medium;
+}
+.btn-sm{
+    margin: 1px 1px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: small;
+}
+.fa{
+    color: white;
+}
+.acept{
+    background-color: #810094;
+
+}
+.cancel{
+    background-color: #007394;
+}
+.acept:hover{
+    background-color: #5f056d;
+}.cancel:hover{
+    background-color: #056079;
+}
+/* Barra superior */
+.barra{
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+}
+.separador{
+    width: 50px;
+    float: right;
+    margin: 10px;
+
+}.linea{
+    float: right;
+    width: 1px;
+    height: 60%;
+    background-color: white;
+    margin-top: 10px;
+}

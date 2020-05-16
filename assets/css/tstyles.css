@@ -1,0 +1,81 @@
+.dsmall{
+    padding-top: 10px;
+    width: 50%;
+    margin: 5% 25%;
+    border-radius: 15px;
+    border: solid 2px;
+    border-color: #701264;
+}
+.dsmallw{
+    padding-top: 10px;
+    width: 50%;
+    margin: 1% 25%;
+}
+.dmedium{
+    width: 70%;
+    margin: 5% 15%;
+}
+.dbig{
+    width: 90%;
+    margin: 5%;
+}
+
+
+/* Comienza estilo de tabla */
+table.purpleHorizon {
+  border: 1px solid #792396;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.purpleHorizon td, table.purpleHorizon th {
+  border: 1px solid #AEB2B0;
+  padding: 5px 2px;
+}
+table.purpleHorizon tbody td {
+  font-size: 13px;
+  font-weight: bold;
+  color: #230A3F;
+}
+table.purpleHorizon tr:nth-child(even) {
+  background: #E7E1FC;
+}
+table.purpleHorizon thead {
+  background: #6E2F87;
+  border-bottom: 0px solid #792396;
+}
+table.purpleHorizon thead th {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  border-left: 1px solid #FFFFFF;
+}
+table.purpleHorizon thead th:first-child {
+  border-left: none;
+}
+
+table.purpleHorizon tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D1AFFF;
+  background: -moz-linear-gradient(top, #dcc3ff 0%, #d5b7ff 66%, #D1AFFF 100%);
+  background: -webkit-linear-gradient(top, #dcc3ff 0%, #d5b7ff 66%, #D1AFFF 100%);
+  background: linear-gradient(to bottom, #dcc3ff 0%, #d5b7ff 66%, #D1AFFF 100%);
+  border-top: 0px solid #792396;
+}
+table.purpleHorizon tfoot td {
+  font-size: 13px;
+}
+table.purpleHorizon tfoot .links {
+  text-align: right;
+}
+table.purpleHorizon tfoot .links a{
+  display: inline-block;
+  background: #792396;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
