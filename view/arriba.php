@@ -5,4 +5,5 @@
     <!-- CSS -->
     <link href="../assets/css/styles.css" rel="stylesheet">
     <link href="../assets/css/tstyles.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome/css/font-awesome.css" rel="stylesheet">
 </head>
