@@ -12,14 +12,14 @@
         <div class="dsmall">
 
             <div class="panel panelModalHeader">
-                <h1>Lenguaje</h1>
+                <h1>Gramática</h1>
             </div>
-            <form method="post" action="../controladores/idioma.php">
+            <form method="post" action="../controladores/gramatica.php">
                 <div class="panel panelModalBody">
                     <div class="group-input">
                         <label for="input-g" class="input-l">Nombre</label>
                         <input type="hidden" name="bandera" value="guardar">
-                        <input class="input-g" type="text" name="idioma" id="idioma" />
+                        <input class="input-g" type="text" name="nombre" id="nombre" />
                     </div>
                 </div>
                 <div class="panel panelModalFood">

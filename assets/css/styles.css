@@ -20,7 +20,7 @@ body {
     float:left;
 }
 .centro{
-    background-color: white;
+    background-color: #f1f1f1;
     width: 90%;
     min-height: 88%;
     float:right;
@@ -120,32 +120,30 @@ h2{
     justify-content: center;
 }
 .btn{
-    margin: 5px 5px;
-    width: 90px;
     height: 35px;
     border-radius: 5px;
-    outline: none;
     color: white;
+    border: none;
+}
+.btn-md{
+    margin: 5px 5px;
+    width: 90px;
     font-size: medium;
 }
 .btn-sm{
     margin: 1px 1px;
     width: 35px;
-    height: 35px;
-    border-radius: 5px;
-    outline: none;
-    color: white;
     font-size: small;
 }
 .fa{
     color: white;
 }
 .acept{
-    background-color: #810094;
+    background-color: #850699;
 
 }
 .cancel{
-    background-color: #007394;
+    background-color: #077999;
 }
 .acept:hover{
     background-color: #5f056d;

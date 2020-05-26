@@ -4,7 +4,7 @@ include("../controladores/dao.php");
 $conexion =new Conexion();
 $c=$conexion->conectar();
 $dao=new dao();
-$idiomas=$dao->ver($c,"SELECT * FROM idioma ORDER BY nombre");
+$gramaticas=$dao->ver($c,"SELECT * FROM gramatica ORDER BY nombre");
 $contador=1;
 ?>
 <!DOCTYPE html>
@@ -15,12 +15,12 @@ $contador=1;
 <body>
     <div class="encabezado">
         <div class="separador">
-            <a href="../view/" class="barra">Start</a>
+            <a href="../view/" class="barra">Inicio</a>
         </div>
         <div class="linea">
         </div>
         <div class="separador">
-            <a href="../view/nuevoIdioma.php" class="barra">New</a>
+            <a href="../view/nuevoGramatica.php" class="barra">Nuevo</a>
         </div>
         <div class="linea">
         </div>
@@ -33,26 +33,26 @@ $contador=1;
             <table class="purpleHorizon">
                 <thead>
                     <th>N°</th>
-                    <th>Name</th>
-                    <th>Options</th>
+                    <th>Nombre</th>
+                    <th>Opciones</th>
                 </thead>
                 <tbody>
-                    <?php While($idioma=mysqli_fetch_assoc($idiomas)){ 
+                    <?php While($gramatica=mysqli_fetch_assoc($gramaticas)){ 
                                 if($contador%2==0){?>
                     <tr class="alt">
                         <?php }else{ ?>
                     <tr>
                         <?php } ?>
                         <td><?php echo $contador?></td>
-                        <td><?php echo $idioma['nombre']; ?></td>
+                        <td><?php echo $gramatica['nombre']; ?></td>
                         <td>
                             <input type='hidden' value="">
                             <div class="btn-group">
                                 <button data-toggle="modal" class="btn acept btn-sm" data-target="#modalEditar"
-                                    title="Editar" id="editarm"><i class="fa fa-list"></i></button>
+                                    title="Editar" id="editarm"><i class="fa fa-list fa-lg"></i></button>
                                 <button title="eliminar" class="btn cancel btn-sm" data-toggle="modal"
                                     data-target="#modalEliminar" id="eliminarm">
-                                    <i class="fa fa-times"></i>
+                                    <i class="fa fa-times fa-lg"></i>
                                 </button>
                             </div>
                         </td>
